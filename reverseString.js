@@ -1,14 +1,12 @@
-let sentence = "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+// Reverse the entered word
+// Girilen kelimeyi tersine dönüştürme
 
-let wordOfsentence = sentence.split(" ")
+function reverseString(word) {
 
-console.log(wordOfsentence)
+    let characterOfWord = word.split("")
+    let reverseWord = characterOfWord.reverse()
+    console.log(reverseWord)
 
-let convertWordToSentence = wordOfsentence.join(" ")
+}
 
-console.log(convertWordToSentence)
-
-let word = "Hello"
-let characterOfWord = word.split("")
-let reverseWord = characterOfWord.reverse()
-console.log(reverseWord)
+reverseString("Hello")
