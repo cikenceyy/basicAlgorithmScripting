@@ -1,6 +1,6 @@
 /* Bir fonksiyon oluşturduk. Bu fonskiyon 2 adet değer alıyor; Array ve fonksiyon. 
 Aldığı dizinin her bir elemanını aldığı fonksiyondan süzgeçliyor ve çıkan sonucu trueValueArr aktarıyor.
-Senin verdiğin değerleri senin verdiğin fonksiyondan geçiren Bir Fonksiyon
+Senin verdiğin değerleri senin verdiğin fonksiyondan geçiren Bir Fonksiyon.
 */
 
 function findElement(arr, func) {
