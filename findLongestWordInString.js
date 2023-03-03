@@ -1,4 +1,5 @@
-
+// The function that finds the word with the most letters in the meat.
+// Metindeki en çok harfe sahip kelimeyi bulan fonksiyon.
 
 function findLongestWordInString(sentence) {
 
