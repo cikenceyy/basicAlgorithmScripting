@@ -1,3 +1,6 @@
+// does it end right?
+// Sonu Doğru mu?
+
 console.log("confirm The Ending .js")
 
 function confirmEnding(text, end) {
