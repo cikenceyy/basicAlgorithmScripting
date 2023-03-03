@@ -1,12 +1,14 @@
-// Girilen string ifadenin her bir kelimesinin ilk harfini büyük yapıyoruz ve diğer harfleri küçültüyoruz.
+// ENG: We capitalize the first letter of each word of the entered text and it we make the other letters of the word lowercase
+// TR: Girilen metnin her bir kelimesinin ilk harfini büyük yapıyoruz ve o kelimenin diğer harfleri küçük yapıyoruz
 
-function titleCase(str) {
+
+function titleCase(text) {
 
     // Filtrelenmiş elemanları myResultARR isimli dizimize aktarıyoruz
     let myResultArr = []
 
     // Girilen string ifadeyi boşuklari le ayırarak, kelimelere bölüyoruz.
-    const myStrArr = str.split(" ")
+    const myStrArr = text.split(" ")
 
     // Her bir kelimenin içinde geziniyoruz.
     for (let i = 0; i < myStrArr.length; i++) {
