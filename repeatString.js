@@ -1,3 +1,4 @@
+// We duplicate the entered character string as much as the entered value. Symmetric log output.
 // Girilen karakter dizisini girilen değer kadar çoğaltıyoruz. Simetrik log çıktısı oluyor.
 
 function repeatString(str, num) {
